@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>公司官网</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <!-- Logo 区域 - 可以选择使用文字或图片 -->
+            <div class="logo">
+                <!-- 文字 Logo -->
+                <span class="logo-text">公司名称</span>
+                
+                <!-- 图片 Logo - 需要时取消注释并替换图片路径 -->
+                <!--
+                <a href="#" class="logo-image">
+                    <img src="images/logo.png" alt="公司名称">
+                </a>
+                -->
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#products">产品</a></li>
+                <li><a href="#about">关于</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 首页横幅 -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <h1 data-aos="fade-up">创新科技 引领未来</h1>
+            <p data-aos="fade-up" data-aos-delay="200">专注于为企业提供创新的技术解决方案</p>
+            <a href="#contact" class="cta-button" data-aos="fade-up" data-aos-delay="400">
+                立即咨询 <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- 产品/服务介绍 -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 data-aos="fade-up">我们的产品</h2>
+            <div class="product-grid">
+                <div class="product-card" data-aos="fade-up">
+                    <div class="product-image">
+                        <img src="images/product1.jpg" alt="智能解决方案">
+                    </div>
+                    <h3>智能解决方案</h3>
+                    <p>运用人工智能技术，为企业提供智能化升级服务</p>
+                    <a href="#" class="learn-more">了解更多 <i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-image">
+                        <img src="images/product2.jpg" alt="数据分析平台">
+                    </div>
+                    <h3>数据分析平台</h3>
+                    <p>深度数据分析，助力企业精准决策</p>
+                    <a href="#" class="learn-more">了解更多 <i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="product-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="product-image">
+                        <img src="images/product3.jpg" alt="云服务方案">
+                    </div>
+                    <h3>云服务方案</h3>
+                    <p>安全可靠的云端服务，保障业务高效运转</p>
+                    <a href="#" class="learn-more">了解更多 <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我们部���的更新 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 data-aos="fade-up">关于我们</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h3>创新科技，引领未来</h3>
+                    <p>我们是一家致力于为企业提供创新技术解决方案的科技公司。自成立以来，我们始终坚持以客户需求为导向，以技术创新为驱动，为众多企业客户提供了优质的服务。</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">年行业经验</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">1000+</span>
+                            <span class="stat-label">服务客户</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">技术专利</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <img src="images/about-image.jpg" alt="关于我们">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们部分的更新 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 data-aos="fade-up">联系我们</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info-content">
+                            <h4>公司地址</h4>
+                            <p>某某市某某区某某街道123号</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="info-content">
+                            <h4>联系电话</h4>
+                            <p>123-456-789</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info-content">
+                            <h4>电子邮箱</h4>
+                            <p>info@company.com</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-weixin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-weibo"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" data-aos="fade-left" id="contactForm">
+                    <!-- 
+                    第三方留言接口配置说明：
+                    1. 表单ID: contactForm
+                    2. 各输入字段name属性对应接口参数
+                    3. 接口配置项在 js/contact.js 中设置
+                    -->
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="您的姓名" required 
+                            data-msg="请输入您的姓名">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="电子邮箱" required 
+                            data-msg="请输入有效的邮箱地址">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="联系电话" 
+                            data-msg="请输入有效的电话号码">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="请输入您的留言" required 
+                            data-msg="请输入留言内容"></textarea>
+                    </div>
+                    <!-- 添加隐藏的表单字段用于防止垃圾信息 -->
+                    <input type="hidden" name="timestamp" id="timestamp">
+                    <input type="hidden" name="token" id="formToken">
+                    
+                    <button type="submit" class="submit-btn">
+                        <span class="btn-text">发送消息</span>
+                        <span class="btn-loading" style="display: none;">
+                            <i class="fas fa-spinner fa-spin"></i> 发送中...
+                        </span>
+                    </button>
+
+                    <!-- 表单提交结果提示 -->
+                    <div class="form-message" style="display: none;">
+                        <p class="success-message">
+                            <i class="fas fa-check-circle"></i> 
+                            消息已发送，我们会尽快与您联系！
+                        </p>
+                        <p class="error-message">
+                            <i class="fas fa-exclamation-circle"></i> 
+                            发送失败，请稍后重试或直接联系我们。
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 公司名称. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
+    <script src="js/contact.js"></script>
+</body>
+</html> 
