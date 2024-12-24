@@ -2,8 +2,6 @@
 
 一个现代化的官网模板，采用响应式设计，适合科技公司、互联网企业等使用。
 
-[English](./README_EN.md) | 简体中文
-
 ## 📸 项目预览
 
 ### 首页展示
@@ -76,5 +74,3 @@
 - [AOS.js](https://michalsnik.github.io/aos/) - 滚动动画
 - [Font Awesome 6.0](https://fontawesome.com/) - 图标库
 - [Google Fonts (Poppins)](https://fonts.google.com/specimen/Poppins) - 字体
-
-## 📦 快速开始
